@@ -3,7 +3,7 @@ FROM docker.io/centos:8
 LABEL maintainer="Seu Nome <voce@dominio.com>"
 
 ENV APP_PROFILE="default"
-ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.8.10-0.el8_2.x86_64"
+ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.8.10-0.el8_2.x86_64/jre"
 ENV MAVEN_HOME="/opt/apache-maven-3.6.3"
 ENV PATH="$PATH:$MAVEN_HOME/bin"
 
